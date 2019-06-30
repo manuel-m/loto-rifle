@@ -1,0 +1,72 @@
+html,
+body,
+div,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #000;
+}
+
+.wrapper {
+  display: grid;
+  height: 100vh;
+}
+
+.content {
+  align-self: center;
+  justify-self: center;
+  max-width: 100%;
+  
+  margin: 2px;
+  border: solid 2px #444;
+  border-radius: 4px;
+}
+
+.icon {
+  width:0.7em;
+  color:#f00;
+  opacity:0.4;
+}
+
+.loto-topbar {
+  background-color: #bbc;
+  display: grid;  
+  font-weight: bold;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.loto-topbar-tile {
+  color: #222;
+  font-size: 4em;
+  text-align: center;
+}
+
+.loto-topbar-tile.selected {
+  color: #bf0d0d;
+}
+
+.loto-grid {
+  padding: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  font-weight: bold;
+  background-color:#111;
+}
+
+.loto-tile {
+  color: #444;
+  padding: 0.08em;
+  padding-left:0.4em;
+  padding-right:0.4em;
+  font-size: 3.1em;
+  text-align: center;
+}
+
+.loto-tile.selected {
+  color: #fff;
+  background-color:#2F2828;
+}
